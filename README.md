@@ -7,9 +7,9 @@ Then I'm going to style it with CSS and proceed with adding my JavaScript.
 In the beginning, I'm doing this the easy but not the best way - adding a bunch of if-statements with some validation.
 And then I'm completely refactoring it and creating specific functions for each type of validation. 
 For example, to check required, check the length, or check to see if the passwords match.
-
 So, initially I'm writing it in one way and then completely refactoring it to make it cleaner and more scalable.
 If I want to add more fields, it'll be easy to add the validation.
+
 For example, if I were to submit, I'd get a bunch of errors.
 Every field is required. Some of them have a min and max length. I.e., username must be at least three characters.
 If I type in Lana in the username field and submit, it gets highlighted green, which means that it passed.
